@@ -1,0 +1,10 @@
+.register
+{
+    margin-top: 5%;
+}
+
+.invalid-feedback
+{
+    color: red;
+    font-size: small;
+}

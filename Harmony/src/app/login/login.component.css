@@ -1,0 +1,20 @@
+.container
+{
+    margin-top:10%;
+}
+
+.control-label
+{
+ cursor: pointer;
+}
+
+.invalid-feedback
+{
+    color: red;
+    margin-left:30%;
+}
+
+.errDesc
+{
+    font-size: small;
+}
