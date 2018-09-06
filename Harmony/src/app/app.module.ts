@@ -28,6 +28,8 @@ import { JwtInterceptor, ErrorInterceptor } from './_helpers';
 
 //Services
 import { AlertService, AuthenticationService, UserService } from './_services';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { AlertService, AuthenticationService, UserService } from './_services';
     AppComponent,
     DashboardComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
